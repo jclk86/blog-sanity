@@ -116,7 +116,7 @@ export default createSchema({
           name: 'author',
           title: 'Author',
           type: 'reference',
-          to: [{type: 'author'}],
+          to: [{type: 'author'}], // author from above schema for author - outside of blog
           validation: Rule => Rule.required()
         },
         {
