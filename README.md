@@ -1,4 +1,21 @@
-# Sanity Clean Content Studio
+# Sanity Clean Content Studio:
+
+## Getting Started
+
+1. Create `.env.development` file in root folder with values of: 
+
+```javascript
+SANITY_STUDIO_PROJECT_URL=YOUR_URL // eg http://localhost:3333
+SANITY_STUDIO_PREVIEW_SECRET=YOUR_SECRET // unique string
+```
+
+2. Run the development server:
+
+```bash
+npm run dev
+# or
+yarn run dev
+```
 
 Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
 
